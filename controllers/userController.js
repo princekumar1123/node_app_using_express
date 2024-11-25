@@ -89,7 +89,7 @@ module.exports = {
       if (!result) {
         throw createError(404, "User doesn't  exist!!!");
       }
-      console.log(result);
+    //   console.log(result);
       res.send(result);
     } catch (error) {
       console.log(error.message);
